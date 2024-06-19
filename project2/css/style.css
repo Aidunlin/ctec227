@@ -1,0 +1,64 @@
+/*
+Sometimes Chrome needs this as well as the meta view-transition tag.
+Other times, it just needs the meta tag.
+*/
+@view-transition {
+    navigation: auto;
+}
+
+/*
+Some touchups to get the navbar just right.
+*/
+nav ul {
+    width: 100%;
+}
+
+nav ul:first-of-type {
+    margin-left: 0;
+}
+
+nav ul:last-of-type {
+    margin-right: 0;
+}
+
+nav li.brand {
+    margin-right: auto;
+}
+
+nav li.brand a {
+    padding: 0;
+}
+
+nav li.brand hgroup {
+    margin-bottom: 0;
+}
+
+nav li {
+    align-self: end;
+}
+
+/*
+Improves the post headings in blog.php.
+*/
+.post-title {
+    margin-bottom: 0;
+}
+
+.post-title a {
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+/*
+Improvements for basic reading.
+*/
+h2, h3 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
